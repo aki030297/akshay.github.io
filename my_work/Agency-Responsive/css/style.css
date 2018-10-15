@@ -1,0 +1,1400 @@
+* {
+	margin: 0px auto;
+	padding: 0px;
+	border: 0px;
+	box-sizing: border-box;
+}
+
+.both {
+	clear: both;
+}
+
+body {
+	color: #777777;
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.625em;
+	position: relative;
+}
+
+
+/* =================================Mobile View - below 480px=========================================================================
+
+======================================================================================================================================= */
+
+
+/*------==========================Header Section code Start=============================---------*/
+
+header {
+	width: 100%;
+	height: auto;
+	z-index: 1;
+	background-color: #fff;
+	position: fixed;
+}
+
+.logo {
+	vertical-align: middle;
+	margin: 5% 0 0 10%;
+}
+
+nav {
+	display: none;
+}
+
+.menuicon {
+	display: inline-block;
+	cursor: pointer;
+	float: right;
+	margin: -10% 10% 0 0;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+	width: 35px;
+	height: 5px;
+	background-color: #210439;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+
+
+/*------==========================Header Section code End=============================---------*/
+
+
+/*------==========================Banner Section code Start=============================---------*/
+
+#banner {
+	width: 100%;
+	height: auto;
+}
+
+.parallax {
+	top: 55px;
+	position: relative;
+	background-image: url("../img/header-bg.jpg");
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.tagline {
+	float: right;
+	margin: 90% 2% 0 0;
+}
+
+.tagline h1 {
+	color: #551800;
+	font-size: 225%;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 100;
+	line-height: 1.2em !important;
+	margin-bottom: 5%;
+}
+
+.tagline span {
+	font-weight: 700;
+}
+
+.tagline button {
+	width: 80%;
+	height: 30px;
+	color: #fff;
+	background-color: #714C8F;
+	border-radius: 4px;
+	cursor: pointer;
+	justify-content: center;
+	margin: 0 0 0 0%;
+}
+
+
+/*------==========================Banner Section code End=============================---------*/
+
+
+/*------==========================News Section code Start=======================================---------*/
+
+#news {
+	width: 100%;
+	height: auto;
+	padding: 30% 0 4% 0;
+}
+
+.-le {
+	width: 100%;
+}
+
+.title h1 {
+	text-align: center;
+	font-size: 225%;
+	padding: 5% 0 5% 0;
+}
+
+.category {
+	width: 100%;
+}
+
+.category1,
+.category2,
+.category3,
+.category4 {
+	width: 100%;
+	height: 300px;
+	float: left;
+	background-color: #fff;
+}
+
+.ctitle {
+	padding-top: 10px;
+	text-align: center;
+	color: #222222;
+	line-height: 1.2em !important;
+	font-size: 100%;
+	font-weight: 600;
+}
+
+.description {
+	width: 70%;
+	height: auto;
+	padding-top: 2%;
+}
+
+.ctitlep {
+	padding-top: 10px;
+	text-align: justify-all;
+	color: #777777;
+	line-height: 1.2em !important;
+	font-size: 100%;
+	font-weight: 200;
+}
+
+.vbtn {
+	width: 50%;
+	height: 10%;
+	color: #513E61;
+	background-color: #fff;
+	border-radius: 50%;
+	margin: 3% 0 0 24%;
+	cursor: pointer;
+}
+
+.vbtn:hover {
+	color: #fff;
+	background-color: #321686;
+}
+
+
+/*------==========================News Section code End=======================================---------*/
+
+
+/*------==========================About Section code Start============================================================---------*/
+
+#about {
+	width: 100%;
+	height: auto;
+	background-color: #918BED;
+	margin-top: 22%;
+}
+
+.about_txt {
+	width: 100%;
+	margin: 0 0 0 0;
+}
+
+.about_txt h1 {
+	color: #fff;
+	font-size: 300%;
+	line-height: 150%;
+	font-weight: 800;
+	text-align: center;
+}
+
+.add_girl {
+	width: 100%;
+	margin: -3% 0 0 0;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	border-style: none;
+}
+
+.abtn {
+	width: 90%;
+	height: 20%;
+	font-size: 150%;
+	color: #fff;
+	background-color: #918BED;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin: 5% 0 0 5%;
+	cursor: pointer;
+}
+
+.abtn2 {
+	margin: 5% 0 5% 5%;
+}
+
+.abtn:hover {
+	border: none;
+	color: #1D026C;
+	background-color: #DCDBE1;
+}
+
+
+/*------==========================About Section code End=================================================================---------*/
+
+
+/*------==========================Team Section code Start===================================================================---------*/
+
+#team {
+	width: 100%;
+	height: auto;
+}
+
+.team_title {
+	width: 100%
+}
+
+#team img {
+	opacity: 1.0;
+	filter: alpha(opacity=50);
+}
+
+#team img:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=100);
+}
+
+.team_title h1 {
+	text-align: center;
+	font-size: 225%;
+	padding: 5% 0 0 0;
+}
+
+.team_title p {
+	text-align: center;
+	font-size: 115%;
+	padding: 1% 0 0 0;
+}
+
+.member {
+	width: 90%;
+	margin: 3% 0 0 7%;
+}
+
+.person {
+	width: 100%;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+
+.name {
+	padding-top: 5%;
+	font-size: 200%;
+}
+
+.position {
+	padding-top: 3%;
+}
+
+
+/*------==========================Team Section code End=====================================================================---------*/
+
+
+/*------==========================Testinomial Section code Start=====================================================================---------*/
+
+#testinomial {
+	width: 100%;
+	min-height: 600px;
+	background-image: url("../img/testimonial-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	margin: 5% 0 5% 0;
+}
+
+.testi {
+	width: 90%;
+	height: 250px;
+	padding-top: 6%;
+}
+
+.testi img {
+	padding-top: 2%;
+}
+
+.testinomial1,
+.testinomial2 {
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color: #310BA2;
+	opacity: 0.7;
+	margin-left: 3%;
+}
+
+.testinomial1 {
+	margin-top: 2%;
+}
+
+.testinomial2 {
+	margin-top: 2%;
+}
+
+.desc {
+	width: 80%;
+}
+
+.dtext {
+	color: #fff;
+}
+
+.ename {
+	color: #F7FD00;
+	font-size: 150%;
+}
+
+.eposition {
+	color: #B0FF13;
+}
+
+
+/*------==========================Testinomil Section code End=====================================================================---------*/
+
+
+/*------==========================Blog Section code Start==========================================================================---------*/
+
+#blog {
+	width: 100%;
+	height: auto;
+}
+
+.blog_title {
+	width: 100%
+}
+
+.blog_title h1 {
+	text-align: center;
+	font-size: 225%;
+	padding: 0 0 5% 0;
+}
+
+.blog_member {
+	width: 90%;
+	margin: 0 0 5% 5%;
+}
+
+.bloger {
+	width: 100%;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+
+.bloger2,
+.bloger3,
+.bloger4 {
+	padding-top: 5%;
+}
+
+.zoom {
+	transition: transform .2s;
+}
+
+.zoom:hover {
+	transform: scale(0.9);
+}
+
+.btxt {
+	text-decoration: none;
+	color: #BA4A00;
+	font-size: 125%;
+}
+
+.btxt:hover {
+	color: #5B2C6F;
+}
+
+.icons {
+	width: 100%;
+}
+
+.icon1 {
+	float: left;
+	margin-left: 15%;
+}
+
+.icon2 {
+	float: right;
+	margin-right: 15%;
+}
+
+
+/*------==========================Blog Section code End=============================================================================---------*/
+
+
+/*------==========================Footer Section code Start=============================================================================---------*/
+
+footer {
+	width: 100%;
+	height: auto;
+	background-color: #232323;
+}
+
+.content {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 15%;
+}
+
+.product {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin: 15% 0 0 0;
+}
+
+.newsletter {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin: 5% 0 0 0;
+}
+
+.insta_feed {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin: 5% 0 0 0;
+}
+
+.title_c {
+	text-align: center;
+	color: #fff;
+}
+
+.product ul {
+	list-style: none;
+	margin: 0 0 0 24%;
+}
+
+.product a {
+	color: #F8C471;
+	text-decoration: none;
+	outline: 0;
+}
+
+.product a:hover {
+	color: #D35400;
+}
+
+.product li {
+	padding: 3% 0 3%;
+}
+
+.newsletter p {
+	text-align: center;
+	color: #F8C471;
+}
+
+.newsletter form input {
+	width: 70%;
+	height: 50px;
+	border: none;
+	border-radius: 25px;
+	outline: 0;
+	padding-left: 5%;
+	margin-top: 5%;
+}
+
+
+.newsletter button {
+	width: 50%;
+	height: 50px;
+	color: #fff;
+	font-size: 125%;
+	font-weight: 800;
+	background-color: #AB77EA;
+	border-radius: 25px;
+	margin-top: 2%;
+	cursor: pointer;
+	outline: 0;
+}
+
+.instaimg ul {
+	list-style: none;
+	margin: 5% 0 0 0;
+}
+
+.instaimg li {
+	display: inline;
+}
+
+.copyright {
+	text-align: center;
+	padding: 5% 0 5% 0;
+	color: #fff;
+	font-family: 'Pacifico', cursive;
+}
+
+
+/*------==========================Footer Section code End===============================================================================---------*/
+
+
+/*====================================== Tablet View - below 768px=======================================================================================
+
+========================================================================================================================================================= */
+
+@media only screen and (min-width: 481px) {
+	header {
+		width: 100%;
+		height: auto;
+		z-index: 1;
+		background-color: #fff;
+		position: fixed;
+	}
+	.logo {
+		vertical-align: middle;
+		margin: 1% 0 0 5%;
+	}
+	.menuicon {
+		display: none;
+	}
+	nav {
+		width: 65%;
+		display: inline-block;
+		float: right !important;
+		margin: -30px 10px 0 0;
+	}
+	nav ul {
+		list-style: none;
+	}
+	nav ul li {
+		display: inline;
+		margin: 0 1% 0 1%;
+	}
+	nav ul li a {
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #210439;
+		font-size: 100%;
+		font-weight: 600;
+	}
+	nav a:hover {
+		color: #EB7B1E;
+	}
+	/*------==========================Header Section code End=============================---------*/
+	/*------==========================Banner Section code Start=============================---------*/
+	#banner {
+		width: 100%;
+		height: auto;
+	}
+	.parallax {
+		top: 55px;
+		position: relative;
+		background-image: url("../img/header-bg.jpg");
+		min-height: 600px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.tagline {
+		float: right;
+		margin: 10% 10% 0 0;
+	}
+	.tagline h1 {
+		color: #551800;
+		font-size: 450%;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 100;
+		line-height: 1.2em !important;
+		margin-bottom: 5%;
+	}
+	.tagline span {
+		font-weight: 700;
+	}
+	.tagline button {
+		width: 40%;
+		height: 30px;
+		color: #fff;
+		background-color: #714C8F;
+		border-radius: 4px;
+		cursor: pointer;
+		justify-content: center;
+		margin: 0 0 0 20%;
+	}
+	/*------==========================Banner Section code End=============================---------*/
+	/*------==========================News Section code Start=======================================---------*/
+	#news {
+		width: 100%;
+		height: auto;
+		padding: 10% 0 4% 0;
+	}
+	.title {
+		width: 100%;
+	}
+	.title h1 {
+		text-align: center;
+		font-size: 225%;
+		padding: 5% 0 5% 0;
+	}
+	.category {
+		width: 100%;
+	}
+	.category1,
+	.category2,
+	.category3,
+	.category4 {
+		width: 50%;
+		height: 300px;
+		float: left;
+		background-color: #fff;
+		padding-top: 0%;
+	}
+	.ctitle {
+		padding-top: 10px;
+		text-align: center;
+		color: #222222;
+		line-height: 1.2em !important;
+		font-size: 100%;
+		font-weight: 600;
+	}
+	.description {
+		width: 70%;
+		height: auto;
+		padding-top: 2%;
+	}
+	.ctitlep {
+		padding-top: 10px;
+		text-align: justify-all;
+		color: #777777;
+		line-height: 1.2em !important;
+		font-size: 100%;
+		font-weight: 200;
+	}
+	.vbtn {
+		width: 50%;
+		height: 10%;
+		color: #513E61;
+		background-color: #fff;
+		border-radius: 50%;
+		margin: 3% 0 0 24%;
+		cursor: pointer;
+	}
+	.vbtn:hover {
+		color: #fff;
+		background-color: #321686;
+	}
+	/*------==========================News Section code End=======================================---------*/
+	/*------==========================About Section code Start============================================================---------*/
+	#about {
+		width: 100%;
+		height: auto;
+		background-color: #918BED;
+		margin-top: 22%;
+	}
+	.about_txt {
+		width: 100%;
+		margin: 0 0 0 0;
+	}
+	.about_txt h1 {
+		color: #fff;
+		font-size: 300%;
+		line-height: 150%;
+		font-weight: 800;
+		text-align: center;
+	}
+	.add_girl {
+		width: 100%;
+		margin: -3% 0 0 0;
+	}
+	.img-fluid {
+		max-width: 100%;
+		height: auto;
+		vertical-align: middle;
+		border-style: none;
+	}
+	.abtn {
+		width: 50%;
+		height: 20%;
+		font-size: 200%;
+		color: #fff;
+		background-color: #918BED;
+		border: 1px solid #fff;
+		border-radius: 50%;
+		margin: 2% 0 0 24%;
+		cursor: pointer;
+	}
+	.abtn2 {
+		margin: 2% 0 5% 24%;
+	}
+	.abtn:hover {
+		border: none;
+		color: #1D026C;
+		background-color: #DCDBE1;
+	}
+	/*------==========================About Section code End=================================================================---------*/
+	/*------==========================Team Section code Start===================================================================---------*/
+	#team {
+		width: 100%;
+		height: auto;
+	}
+	.team_title {
+		width: 100%
+	}
+	#team img {
+		opacity: 1.0;
+		filter: alpha(opacity=50);
+	}
+	#team img:hover {
+		opacity: 0.5;
+		filter: alpha(opacity=100);
+	}
+	.team_title h1 {
+		text-align: center;
+		font-size: 225%;
+		padding: 5% 0 0 0;
+	}
+	.team_title p {
+		text-align: center;
+		font-size: 115%;
+		padding: 1% 0 0 0;
+	}
+	.member {
+		width: 90%;
+		margin: 3% 0 0 7%;
+	}
+	.member3,
+	.member4 {
+		padding-top: 5%;
+	}
+	.person {
+		width: 50%;
+		height: auto;
+		float: left;
+		text-align: center;
+	}
+	.name {
+		padding-top: 5%;
+		font-size: 200%;
+	}
+	.position {
+		padding-top: 3%;
+	}
+	/*------==========================Team Section code End=====================================================================---------*/
+	/*------==========================Testinomil Section code Start=====================================================================---------*/
+	#testinomial {
+		width: 100%;
+		min-height: 400px;
+		background-image: url("../img/testimonial-bg.jpg");
+		background-size: cover;
+		background-position: center;
+		margin: 5% 0 5% 0;
+	}
+	.testi {
+		width: 90%;
+		height: 250px;
+		padding-top: 6%;
+	}
+	.testi img {
+		padding-top: 2%;
+	}
+	.testinomial1,
+	.testinomial2 {
+		width: 45%;
+		height: auto;
+		float: left;
+		background-color: #310BA2;
+		opacity: 0.7;
+		margin-left: 3%;
+	}
+	.desc {
+		width: 80%;
+	}
+	.dtext {
+		color: #fff;
+	}
+	.ename {
+		color: #F7FD00;
+		font-size: 150%;
+	}
+	.eposition {
+		color: #B0FF13;
+	}
+	/*------==========================Testinomil Section code End=====================================================================---------*/
+	/*------==========================Blog Section code Start==========================================================================---------*/
+	#blog {
+		width: 100%;
+		height: auto;
+	}
+	.blog_title {
+		width: 100%
+	}
+	.blog_title h1 {
+		text-align: center;
+		font-size: 225%;
+		padding: 0 0 5% 0;
+	}
+	.blog_member {
+		width: 90%;
+		margin: 0 0 5% 5%;
+	}
+	.bloger {
+		width: 50%;
+		height: auto;
+		float: left;
+		text-align: center;
+	}
+	.bloger2 {
+		padding-top: 0%;
+	}
+	.zoom {
+		transition: transform .2s;
+	}
+	.zoom:hover {
+		transform: scale(0.9);
+	}
+	.btxt {
+		text-decoration: none;
+		color: #BA4A00;
+		font-size: 125%;
+	}
+	.btxt:hover {
+		color: #5B2C6F;
+	}
+	.icons {
+		width: 100%;
+	}
+	.icon1 {
+		float: left;
+		margin-left: 15%;
+	}
+	.icon2 {
+		float: right;
+		margin-right: 15%;
+	}
+	/*------==========================Blog Section code End=============================================================================---------*/
+	/*------==========================Footer Section code Start=============================================================================---------*/
+	footer {
+		width: 100%;
+		height: auto;
+		background-color: #232323;
+	}
+	.content {
+		width: 100%;
+		height: auto;
+		position: relative;
+		top: 15%;
+	}
+	.product {
+		width: 50%;
+		height: auto;
+		float: left;
+	}
+	.newsletter {
+		width: 50%;
+		height: auto;
+		float: left;
+		margin-top: 15%;
+	}
+	.insta_feed {
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+	.title_c {
+		text-align: center;
+		color: #fff;
+	}
+	.product ul {
+		list-style: none;
+		margin: 0 0 0 24%;
+	}
+	.product a {
+		color: #F8C471;
+		text-decoration: none;
+		outline: 0;
+	}
+	.product a:hover {
+		color: #D35400;
+	}
+	.product li {
+		padding: 3% 0 3%;
+	}
+	.newsletter p {
+		text-align: center;
+		color: #F8C471;
+	}
+	.newsletter form input {
+		width: 70%;
+		height: 50px;
+		border: none;
+		border-radius: 25px;
+		outline: 0;
+		padding-left: 5%;
+		margin-top: 5%;
+	}
+	.newsletter button {
+		width: 50%;
+		height: 50px;
+		color: #fff;
+		font-size: 125%;
+		font-weight: 800;
+		background-color: #AB77EA;
+		border-radius: 25px;
+		margin-top: 2%;
+		cursor: pointer;
+		outline: 0;
+	}
+	.instaimg ul {
+		list-style: none;
+		margin: 5% 0 0 15%;
+	}
+	.instaimg li {
+		display: inline;
+	}
+	.copyright {
+		text-align: center;
+		padding: 5% 0 5% 0;
+		color: #fff;
+		font-family: 'Pacifico', cursive;
+	}
+	/*------==========================Footer Section code End===============================================================================---------*/
+}
+
+
+/*============================================= Desktop View - Above 769px=============================================================================
+
+====================================================================================================================================================== */
+
+@media only screen and (min-width: 769px) {
+	/*------==========================Header Section code Start=============================---------*/
+	header {
+		width: 100%;
+		height: auto;
+		z-index: 1;
+		background-color: #fff;
+		position: fixed;
+	}
+	.logo {
+		vertical-align: middle;
+		margin: 1% 0 0 10%;
+	}
+	.menuicon {
+		display: none;
+	}
+	nav {
+		width: 50%;
+		display: inline-block;
+		float: right !important;
+		margin: -30px 10px 0 0;
+	}
+	nav ul {
+		list-style: none;
+	}
+	nav ul li {
+		display: inline;
+		margin: 0 1% 0 1%;
+	}
+	nav ul li a {
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #210439;
+		font-size: 100%;
+		font-weight: 600;
+	}
+	nav a:hover {
+		color: #EB7B1E;
+	}
+	/*------==========================Header Section code End=============================---------*/
+	/*------==========================Banner Section code Start=============================---------*/
+	#banner {
+		width: 100%;
+		height: auto;
+	}
+	.parallax {
+		top: 55px;
+		position: relative;
+		background-image: url("../img/header-bg.jpg");
+		min-height: 600px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.tagline {
+		float: right;
+		margin: 10% 10% 0 0;
+	}
+	.tagline h1 {
+		color: #551800;
+		font-size: 450%;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 100;
+		line-height: 1.2em !important;
+		margin-bottom: 5%;
+	}
+	.tagline span {
+		font-weight: 700;
+	}
+	.tagline button {
+		width: 40%;
+		height: 30px;
+		color: #fff;
+		background-color: #714C8F;
+		border-radius: 4px;
+		cursor: pointer;
+		justify-content: center;
+		margin: 0 0 0 20%;
+	}
+	/*------==========================Banner Section code End=======================================---------*/
+	/*------==========================News Section code Start=======================================---------*/
+	#news {
+		width: 100%;
+		height: auto;
+		padding: 4% 0 4% 0;
+	}
+	.title {
+		width: 100%;
+	}
+	.title h1 {
+		text-align: center;
+		font-size: 225%;
+		padding: 5% 0 5% 0;
+	}
+	.category {
+		width: 100%;
+	}
+	.category1,
+	.category2,
+	.category3,
+	.category4 {
+		width: 25%;
+		height: 300px;
+		float: left;
+		background-color: #fff;
+		padding-top: 0%;
+	}
+	.ctitle {
+		padding-top: 10px;
+		text-align: center;
+		color: #222222;
+		line-height: 1.2em !important;
+		font-size: 100%;
+		font-weight: 600;
+	}
+	.description {
+		width: 70%;
+		height: auto;
+		padding-top: 2%;
+	}
+	.ctitlep {
+		padding-top: 10px;
+		text-align: justify-all;
+		color: #777777;
+		line-height: 1.2em !important;
+		font-size: 100%;
+		font-weight: 200;
+	}
+	.vbtn {
+		width: 50%;
+		height: 10%;
+		color: #513E61;
+		background-color: #fff;
+		border-radius: 50%;
+		margin: 3% 0 0 24%;
+		cursor: pointer;
+	}
+	.vbtn:hover {
+		color: #fff;
+		background-color: #321686;
+	}
+	/*------==========================News Section code End============================================================---------*/
+	/*------==========================About Section code Start============================================================---------*/
+	#about {
+		width: 100%;
+		height: 432px;
+		background-color: #918BED;
+		margin-top: 25%;
+	}
+	.about_txt {
+		width: 39%;
+		float: left;
+		margin: 2% 0 0 10%;
+	}
+	.about_txt h1 {
+		color: #fff;
+		font-size: 300%;
+		line-height: 150%;
+		font-weight: 800;
+		text-align: center;
+	}
+	.add_girl {
+		width: 50%;
+		float: right;
+		margin: -4% 0 0 0;
+	}
+	.img-fluid {
+		max-width: 100%;
+		height: auto;
+		vertical-align: middle;
+		border-style: none;
+	}
+	.abtn {
+		width: 50%;
+		height: 20%;
+		font-size: 200%;
+		color: #fff;
+		background-color: #918BED;
+		border: 1px solid #fff;
+		border-radius: 50%;
+		margin: 5% 0 0 24%;
+		cursor: pointer;
+	}
+	.abtn2 {
+		margin-top: 5%;
+	}
+	.abtn:hover {
+		border: none;
+		color: #1D026C;
+		background-color: #DCDBE1;
+	}
+	/*------==========================About Section code End=================================================================---------*/
+	/*------==========================Team Section code Start===================================================================---------*/
+	#team {
+		width: 100%;
+		height: auto;
+	}
+	.team_title {
+		width: 100%
+	}
+	#team img {
+		opacity: 1.0;
+		filter: alpha(opacity=50);
+	}
+	#team img:hover {
+		opacity: 0.5;
+		filter: alpha(opacity=100);
+	}
+	.team_title h1 {
+		text-align: center;
+		font-size: 225%;
+		padding: 5% 0 0 0;
+	}
+	.team_title p {
+		text-align: center;
+		font-size: 115%;
+		padding: 1% 0 0 0;
+	}
+	.member {
+		width: 90%;
+		margin: 3% 0 0 5%;
+	}
+	.member3,
+	.member4 {
+		padding-top: 0%;
+	}
+	.person {
+		width: 25%;
+		height: auto;
+		float: left;
+		text-align: center;
+	}
+	.name {
+		padding-top: 5%;
+		font-size: 200%;
+	}
+	.position {
+		padding-top: 3%;
+	}
+	/*------==========================Team Section code End=====================================================================---------*/
+	/*------==========================Testinomial Section code Start=====================================================================---------*/
+	#testinomial {
+		width: 100%;
+		min-height: 400px;
+		background-image: url("../img/testimonial-bg.jpg");
+		background-size: cover;
+		background-position: center;
+		margin: 5% 0 5% 0;
+	}
+	.testi {
+		width: 90%;
+		height: 250px;
+		padding-top: 6%;
+	}
+	.testi img {
+		padding-top: 2%;
+	}
+	.testinomial1,
+	.testinomial2 {
+		width: 45%;
+		height: auto;
+		float: left;
+		background-color: #310BA2;
+		opacity: 0.7;
+		margin-left: 3%;
+	}
+	.desc {
+		width: 80%;
+	}
+	.dtext {
+		color: #fff;
+	}
+	.ename {
+		color: #F7FD00;
+		font-size: 150%;
+	}
+	.eposition {
+		color: #B0FF13;
+	}
+	/*------==========================Testinomial Section code End=====================================================================---------*/
+	/*------==========================Blog Section code Start==========================================================================---------*/
+	#blog {
+		width: 100%;
+		height: auto;
+	}
+	.blog_title {
+		width: 100%
+	}
+	.blog_title h1 {
+		text-align: center;
+		font-size: 225%;
+		padding: 0 0 5% 0;
+	}
+	.blog_member {
+		width: 90%;
+		margin: 0 0 5% 5%;
+	}
+	.bloger {
+		width: 25%;
+		height: auto;
+		float: left;
+		text-align: center;
+	}
+	.bloger3,
+	.bloger4 {
+		padding-top: 0%;
+	}
+	.zoom {
+		transition: transform .2s;
+	}
+	.zoom:hover {
+		transform: scale(0.9);
+	}
+	.btxt {
+		text-decoration: none;
+		color: #BA4A00;
+		font-size: 125%;
+	}
+	.btxt:hover {
+		color: #5B2C6F;
+	}
+	.icons {
+		width: 100%;
+	}
+	.icon1 {
+		float: left;
+		margin-left: 15%;
+	}
+	.icon2 {
+		float: right;
+		margin-right: 15%;
+	}
+	/*------==========================Blog Section code End=============================================================================---------*/
+	/*------==========================Footer Section code Start=============================================================================---------*/
+	footer {
+		width: 100%;
+		height: auto;
+		background-color: #232323;
+	}
+	.content {
+		width: 100%;
+		height: auto;
+		position: relative;
+		top: 15%;
+	}
+	.product {
+		width: 20%;
+		height: auto;
+		float: left;
+		margin: 4% 0 0 0;
+	}
+	.newsletter {
+		width: 60%;
+		height: auto;
+		float: left;
+		margin: 4% 0 0 0;
+	}
+	.insta_feed {
+		width: 20%;
+		height: auto;
+		float: left;
+		margin: 4% 0 0 0;
+	}
+	.title_c {
+		text-align: center;
+		color: #fff;
+	}
+	.product ul {
+		list-style: none;
+		margin: 0 0 0 24%;
+	}
+	.product a {
+		color: #F8C471;
+		text-decoration: none;
+		outline: 0;
+	}
+	.product a:hover {
+		color: #D35400;
+	}
+	.product li {
+		padding: 3% 0 3%;
+	}
+	.newsletter p {
+		text-align: center;
+		color: #F8C471;
+	}
+	.newsletter form input {
+		width: 70%;
+		height: 50px;
+		border: none;
+		border-radius: 25px;
+		outline: 0;
+		padding-left: 5%;
+		margin-top: 5%;
+	}
+	.newsletter button {
+		width: 25%;
+		height: 50px;
+		color: #fff;
+		font-size: 125%;
+		font-weight: 800;
+		background-color: #AB77EA;
+		border-radius: 25px;
+		margin-top: 2%;
+		cursor: pointer;
+		outline: 0;
+	}
+	.instaimg ul {
+		list-style: none;
+		margin: 5% 0 0 0;
+	}
+	.instaimg li {
+		display: inline;
+	}
+	.copyright {
+		text-align: center;
+		padding: 5% 0 5% 0;
+		color: #fff;
+		font-family: 'Pacifico', cursive;
+	}
+	/*------==========================Footer Section code End===============================================================================---------*/
+}

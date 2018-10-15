@@ -1,0 +1,980 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+
+/*==================================Navigation Css Code Start===================================*/
+
+.hamburger {
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  cursor: pointer;
+  outline: none;
+  z-index: 400;
+}
+
+.hamburger i {
+  position: relative;
+  top: 20%;
+  left: 20%;
+  font-size: 25px;
+  color: #000000;
+  outline: none;
+}
+
+.profile {
+  margin-left: 25%;
+}
+
+.nav-offcanvas {
+  width: 300px;
+  background: #222323;
+  height: 100vh;
+  position: fixed;
+  z-index: 2000;
+  padding: 50px 0;
+  top: 0;
+  left: -300px;
+  transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.nav-offcanvas .close {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  outline: 0;
+  opacity: 1;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.nav-offcanvas .close i {
+  font-size: 15px;
+  color: white;
+  text-shadow: none;
+}
+
+.nav-offcanvas .close:hover {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.navclass {
+  padding: 5px 0 0 0;
+}
+
+.navclass ul {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.navclass ul li a {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 5px 40px;
+  display: block;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.05s;
+}
+
+.navclass ul li a:hover {
+  -webkit-transform: translateX(10px);
+  transform: translateX(10px);
+}
+
+.navmenu li .icon {
+  color: #fff;
+  position: relative;
+  top: -28px;
+  left: 200px;
+  pointer-events: none;
+  width: 50px;
+  height: 50px;
+}
+
+.social {
+  margin-bottom: 0;
+  padding-left: 85px;
+  list-style: none;
+}
+
+.social li {
+  display: inline;
+  padding: 5px 5px 5px 5px;
+}
+
+.social i {
+  color: #606060;
+  width: 30px;
+  height: 30px;
+}
+
+.social li i:hover {
+  color: #fff;
+}
+
+.copyright {
+  color: #eee;
+  font-size: 1rem;
+}
+
+.name-c {
+  color: #03a9f4;
+  font-size: 1.2rem;
+  margin: 0 0 0 30%;
+}
+
+.nav-offcanvas.open {
+  left: 0;
+}
+
+.offcanvas-overlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1999;
+  transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.offcanvas-overlay.on {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/*==================================Navigation Css Code End===================================*/
+
+
+/*==================================Home page Css Code Start===================================*/
+
+#home {
+  background: url("../assets/background/adult-anger-angry-356147.jpg") 100% fixed no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding: 0 0 5% 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro {
+  margin-top: 10%;
+  width: 100%;
+  display: block;
+}
+
+.home_top_header {
+  color: #fff;
+  padding: 6px 50px;
+  font-size: 3rem;
+}
+
+.intro h1 {
+  font-family: 'Great Vibes', cursive;
+  letter-spacing: 0.2em;
+  font-size: 3em;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+  text-shadow: 1px 5px 4px rgba(0, 0, 0, .3), 0 0 2px rgba(255, 255, 255, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de;
+}
+
+.home_title span {
+  animation: blink .3s infinite alternate;
+}
+
+.home_title span.delay {
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.5, 0.2, 0.3, 1.0);
+}
+
+@keyframes blink {
+  0% {}
+  50% {}
+  60% {
+    text-shadow: 0 0 2px rgba(255, 255, 255, .1), 0 0 10px rgba(255, 255, 255, .4);
+    text-stroke: 2px rgba(255, 255, 255, 0.05);
+  }
+  70% {
+    text-shadow: 0 0 2px rgba(255, 255, 255, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de;
+  }
+  80% {
+    text-shadow: 0 0 2px rgba(255, 255, 255, .1), 0 0 10px rgba(255, 255, 255, .4);
+    text-stroke: 2px rgba(255, 255, 255, 0.05);
+  }
+  100% {
+    text-shadow: 0 0 2px rgba(255, 255, 255, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de;
+  }
+}
+
+
+/*==================================Home page Css Code End===================================*/
+
+
+/*==================================About page Css Code Start===================================*/
+
+#about {
+  position: relative;
+  right: 0px;
+  top: 0px;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  padding: 0 0 5% 0;
+  background: linear-gradient(-45deg, #130f40, #000000, #2D3436, #2B4162);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@media only screen and (min-width: 769px) {
+  #about {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    padding: 0 0 -2% 0;
+    background: linear-gradient(-45deg, #130f40, #000000, #2D3436, #2B4162);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  #about {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    padding: 0 0 -2% 0;
+    background: linear-gradient(-45deg, #130f40, #000000, #2D3436, #2B4162);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+  }
+}
+
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+.explode {
+  position: relative;
+  top: 80px;
+  bottom: 0;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+
+@media only screen and (min-width: 481px) {
+  .explode {
+    position: relative;
+    top: 50px;
+    bottom: 0;
+    left: 20px;
+    right: 0;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .explode {
+    position: relative;
+    top: 50px;
+    bottom: 0;
+    left: 20px;
+    right: 0;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+  }
+}
+
+.pixellate-lock img {
+  visibility: visible !important;
+  background-repeat: no-repeat;
+}
+
+.pixellate-lock .pixellate-pixel {
+  transform: none !important;
+  opacity: 1 !important;
+}
+
+.aboutme {
+  color: #fff;
+  font-family: 'Audiowide', cursive;
+  font-size: 4em;
+  font-weight: 900;
+  padding: 2% 0 0 0;
+}
+
+.me {
+  width: 100%;
+  height: 100%;
+  background-position-y: 20px;
+}
+
+.textanimation {
+  margin: 20% 0 0 0;
+}
+
+.typing {
+  text-align: center;
+}
+
+.typing a {
+  color: #8FAB14;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+@media only screen and (min-width: 481px) {
+  .typing a {
+    color: #8FAB14;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .typing a {
+    color: #8FAB14;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+  }
+}
+
+.animatetext {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  text-align: justify;
+  padding-right: 1%;
+}
+
+.resume-button {
+  display: block;
+  width: 180px;
+  height: 60px;
+  margin: 10% 0 10% 0;
+  position: relative;
+  left: 25%;
+  border: 2px solid #04a;
+  border-radius: 5px;
+  background-color: #06c;
+}
+
+.resume-button .content {
+  display: block;
+  position: absolute;
+  bottom: 6px;
+  width: 100%;
+  height: 100%;
+  line-height: 60px;
+  text-align: center;
+  background-color: #09f;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0 6px 0 #06c;
+  border-radius: 5px;
+  transition: all 0.1s linear;
+}
+
+.resume-button:active .content {
+  bottom: 0;
+  box-shadow: 0 0 0 #06c;
+}
+
+.resume-button i {
+  margin: 0 0 0 5px;
+}
+
+
+/*==================================About page Css Code End===================================*/
+
+
+/*==================================Education page Css Code Start===================================*/
+
+#qualification {
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #5e5368 74%);
+  width: 100%;
+  height: auto;
+  padding: 0 0 10% 0;
+}
+
+#qualification h1 {
+  color: #fff;
+  font-family: 'Audiowide', cursive;
+  font-size: 4em;
+  font-weight: 900;
+  padding: 15% 0 0 0;
+}
+
+.work-left {
+  text-align: right;
+  padding: 2.9em 5em 0 5em;
+  position: relative;
+  right: 6%;
+}
+
+.work-right {
+  border-left: 1px solid #999;
+  padding: 2.5em 0 2em 6em;
+}
+
+@media only screen and (min-width: 481px) {
+  #qualification h1 {
+    color: #fff;
+    font-family: 'Audiowide', cursive;
+    font-size: 4em;
+    font-weight: 900;
+    padding: 5% 0 0 0;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #qualification h1 {
+    color: #fff;
+    font-family: 'Audiowide', cursive;
+    font-size: 4em;
+    font-weight: 900;
+    padding: 5% 0 0 0;
+  }
+}
+
+.work-info h4 {
+  font-size: 15px;
+  background: #03afdd;
+  display: inline-block;
+  padding: 15px 10px;
+  color: #fff;
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.work-info h4:before {
+  width: 0;
+  height: 0;
+  position: absolute;
+  content: '';
+  top: 14px;
+  right: -14px;
+  border-style: solid;
+  border-width: 10px 0 10px 14px;
+  border-color: transparent transparent transparent #03afdd;
+}
+
+.work-info h5 {
+  font-size: 1.3em;
+  color: #F7E612;
+  margin-bottom: .5em;
+  display: inline-block;
+  padding: 0 1.2em;
+}
+
+.work-info p {
+  font-size: 1em;
+  color: #999;
+  line-height: 1.8em;
+}
+
+.work-info h5 span.glyphicon {
+  font-size: 0.9em;
+  color: #fff;
+  background: #03afdd;
+  padding: 1em;
+  border-radius: 70%;
+  transition: .5s all;
+  transform: scale(1);
+}
+
+.work-right h5 span.glyphicon {
+  margin-right: 3em;
+  margin-left: -3.9em;
+}
+
+.work-right {
+  min-height: 120px;
+  float: right;
+}
+
+.work-right:before {
+  left: -14px;
+  transform: rotate(180deg);
+}
+
+.work-right h4 {
+  margin: 1em 0 0 5em;
+}
+
+.work-info:hover h5 span.glyphicon {
+  color: #F7E612;
+  transform: scale(1.2);
+}
+
+.education .work-info h5 {
+  color: #EEAC00;
+}
+
+#add {
+  padding-left: 10%;
+}
+
+
+/*==================================Education page Css Code End====================================*/
+
+
+/*==================================Skill page Css Code Start======================================*/
+
+#skill {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.v-header {
+  height: 100vh;
+  align-items: center;
+}
+
+.videobg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.video-overlay {
+  height: 120vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
+  background: #1C1336;
+  opacity: 0.85;
+}
+
+video {
+  display: inline-block;
+  vertical-align: baseline;
+  object-fit: contain;
+}
+
+#video-elem {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -999;
+}
+
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+@media(max-width:960px) {
+  #skill .container {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 10px;
+  }
+  .video-overlay {
+    height: 235vh;
+  }
+  #skill h1 {
+    font-size: 3em !important;
+  }
+}
+
+#skill .container {
+  z-index: 999;
+}
+
+#skill h1 {
+  color: #fff;
+  font-family: 'Audiowide', cursive;
+  font-size: 4em;
+  font-weight: 900;
+  padding: 5% 0 0 0;
+  z-index: 9999;
+  position: relative;
+}
+
+.bar-grids {
+  padding: 0 4em;
+  z-index: 999;
+}
+
+.bar-grids .progress {
+  height: 14px;
+  margin-bottom: 2.2em;
+  background-color: #2F2C06;
+}
+
+.bar-grids .progress-bar {
+  background-color: #b3315d;
+}
+
+.bar-grids .progress-bar2 {
+  background-color: #ff9d0d;
+}
+
+.bar-grids .progress-bar3 {
+  background-color: #b32eca;
+}
+
+.bar-grids .progress-bar4 {
+  background-color: #009688;
+}
+
+.bar-grids .progress-bar5 {
+  background-color: #6361f0;
+}
+
+.bar-grids .progress-bar6 {
+  background-color: #f34235;
+}
+
+.bar-grids .progress-bar7 {
+  background-color: #03a9f4;
+}
+
+.bar-grids .progress-bar8 {
+  background-color: #ff9d0d;
+}
+
+.bar-grids h6 {
+  font-size: 1.1em;
+  color: #fff;
+  margin-bottom: 0.6em;
+  text-transform: uppercase;
+}
+
+.bar-grids h6 span {
+  float: right;
+  font-size: 0.9em;
+}
+
+
+/*==================================Skill page Css Code End========================================*/
+
+
+/*==================================Work page Css Code Start======================================*/
+
+#work {
+  width: 100%;
+  height: auto;
+  background-color: #2b4162;
+  background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+  background-size: 100% 100%;
+  padding-bottom: 5%;
+}
+
+#work h1 {
+  color: #fff;
+  font-family: 'Audiowide', cursive;
+  font-size: 4em;
+  font-weight: 900;
+  padding: 5% 0 0 0;
+}
+
+.filter button {
+  width: 25%;
+  position: relative;
+  left: 25%;
+  color: #fff;
+}
+
+.filter button a {
+  color: #fff;
+}
+
+.filter li {
+  display: inline;
+}
+
+#web {
+  width: 100%;
+  height: auto;
+  padding: 0 0 5% 0;
+}
+
+#graphics {
+  width: 100%;
+  height: auto;
+  padding: 0 0 5% 0;
+}
+
+.card1 {
+  background: url("../assets/thumbnail/travel.jpg") no-repeat;
+}
+
+.card2 {
+  background: url("../assets/thumbnail/wedding.jpg") no-repeat;
+}
+
+.card3 {
+  background: url("../assets/thumbnail/nrityashakti.jpg") no-repeat;
+}
+
+.card4 {
+  background: url("../assets/thumbnail/onetech.jpg") no-repeat;
+}
+
+.card5 {
+  background: url("../assets/thumbnail/creane.jpg") no-repeat;
+}
+
+.card6 {
+  background: url("../assets/thumbnail/gift.jpg") no-repeat;
+}
+
+.card7 {
+  background: url("../assets/thumbnail/agency.jpg") no-repeat;
+}
+
+.card8 {
+  background: url("../assets/thumbnail/hrishiportfolio.png") no-repeat;
+}
+
+.card9 {
+  background: url("../assets/thumbnail/cuda.jpg") no-repeat;
+}
+
+.card10 {
+  background: url("../assets/thumbnail/strict.jpg") no-repeat;
+}
+
+.card11 {
+  background: url("../assets/thumbnail/AsianAcademyPune.jpg") no-repeat;
+}
+
+.card12 {
+  background: url("../assets/thumbnail/utsav.jpg") no-repeat;
+}
+
+
+/*==================================Work page Css Code End========================================*/
+
+
+/*==================================Contact page Css Code Start======================================*/
+
+#contact {
+  background: url("../assets/background/contact-bg.png") 100% fixed no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-color: #000;
+  width: 100%;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5%;
+}
+
+#contact .container {
+  z-index: 999;
+}
+
+#contact h1 {
+  color: #fff;
+  font-family: 'Audiowide', cursive;
+  font-size: 4em;
+  font-weight: 900;
+  padding: 5% 0 0 0;
+}
+
+#contact h3 {
+  color: #4285F4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+.contactform {
+  height: auto;
+  border-radius: 5px;
+  background-color: #1C1336;
+  opacity: 0.5;
+  padding: 0 0 5% 2%;
+  margin: 0 3% 0 3%;
+}
+
+.contact-form input {
+  margin: 3% 0 3% 0;
+  border-radius: 20px;
+}
+
+.sub {
+  width: 100%;
+  background: #0F3057;
+  color: #fff;
+  margin: 3% 0 3% 0;
+  outline: none;
+}
+
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #fff !important;
+}
+
+.sub i {
+  margin-right: 2%;
+}
+
+#info {
+  position: relative;
+  top: 22%;
+  left: 25%;
+}
+
+#info h2 {
+  color: yellow;
+  font-family: 'Leckerli One', cursive;
+  font-weight: 500;
+  font-size: 2em;
+  margin: 3% 2% 3% 0;
+}
+
+#info h3 {
+  color: yellow;
+  font-family: 'Leckerli One', cursive;
+  font-weight: 500;
+  font-size: 2em;
+  margin: 3% 2% 3% 0;
+}
+
+#info a {
+  color: #fff;
+}
+
+#info ul {
+  list-style: none
+}
+
+.infolist li {
+  color: #fff;
+  padding: 2% 0 2% 0;
+}
+
+.infolist i {
+  margin: 0 3% 0 0;
+}
+
+.socialcontact li {
+  display: inline;
+  padding: 0 2% 0 2%;
+}
+
+.socialcontact i:hover {
+  -ms-transform: scale(2, 3);
+  -webkit-transform: scale(2, 3);
+  transform: scale(1.3, 1.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.socialcontact i {
+  transition: all 0.3s ease-in-out;
+}
+
+.error {
+  color: #fff;
+}
+
+
+/*==================================Contact page Css Code End========================================*/

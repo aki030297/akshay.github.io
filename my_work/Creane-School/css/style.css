@@ -1,0 +1,454 @@
+* {
+	margin: 0px auto;
+	padding: 0px;
+	border: 0px;
+}
+
+.both {
+	clear: both;
+}
+
+#bgimg {
+	width: 100%;
+	background: #067296 url("../images/background/bg_clouds.jpg") top center no-repeat;
+}
+
+main {
+	width: 1000px;
+	height: 2175px;
+	margin: 0px auto;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+
+/*==========================Header section Code Start===============================================*/
+
+header {
+	width: 1000px;
+	height: 60px;
+	padding-top: 30px;
+}
+
+nav {
+	text-align: center;
+	height: 56px;
+	background: url(../images/background/buttons.png) left top no-repeat;
+	padding: 0px 0px 0px 100px;
+}
+
+nav a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 22px;
+	height: 34px;
+}
+
+nav a:hover {
+	background-color: #7FB3D5;
+}
+
+.but {
+	width: 140px;
+}
+
+
+/*==========================Header section Code End===============================================*/
+
+
+/*==========================Logo section Code Start===============================================*/
+
+#logo {
+	height: 190px;
+	padding: 10px 10px 10px 10px;
+	float: right;
+	width: auto;
+}
+
+.logo1 {
+	height: 190px;
+	float: left;
+}
+
+#logo a {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 50px;
+	color: #FFF;
+	font-family: 'Lato', sans-serif;
+	font-weight: bolder;
+	text-transform: capitalize;
+	text-align: right;
+	position: relative;
+	top: 35px;
+}
+
+#logo h2 {
+	font-family: 'Arimo', sans-serif;
+	color: #ffffff;
+	font-size: 30px;
+	font-style: normal;
+	background: no-repeat;
+	text-align: right;
+	position: relative;
+	top: 40px;
+}
+
+
+/*==========================Logo section Code End===============================================*/
+
+
+/*==========================Image slider section Code Start=====================================*/
+
+#img_slider {
+	height: 400px;
+	background-color: #ffffff;
+	border-radius: 35px;
+	position: relative;
+	top: 175px;
+}
+
+.slider {
+	width: 900px;
+	height: 350px;
+	border-radius: 35px;
+	position: relative;
+	top: -190px;
+	left: 50px;
+}
+
+
+/*==========================Image slider section Code End=====================================*/
+
+
+/*==========================School Detail section Code Start=====================================*/
+
+#details {
+	height: 1000px;
+	background-color: #9BC7D5;
+	border-radius: 35px;
+	position: relative;
+	top: 225px;
+}
+
+#left {
+	width: 680px;
+	height: 1000px;
+	float: left;
+}
+
+.heading {
+	width: 680px;
+	height: 50px;
+	float: left;
+	padding: 10px 0 0 25px;
+}
+
+.heading h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	color: #074690;
+	text-align: center;
+	padding: 0px 0px 10px 25px;
+	line-height: normal;
+	border-bottom: 1px dotted #000;
+	margin-bottom: 10px;
+}
+
+#about {
+	width: 680px;
+	height: 900px;
+	background-color: #FFF;
+	float: left;
+	position: relative;
+	left: 25px;
+}
+
+#about h1 {
+	color: #454545;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 200;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.name {
+	color: #8D8D8D;
+}
+
+#about h2 {
+	color: #FF0000;
+	font-size: 18px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 100;
+	padding: 15px 0 0 24px;
+}
+
+.founder_pic {
+	padding: 15px 0 0 24px;
+}
+
+#about p {
+	color: #6F6F6F;
+	font-size: 16px;
+	font-family: 'Timmana', sans-serif;
+}
+
+.para1 {
+	position: absolute;
+	top: 98px;
+	left: 190px;
+	right: 10px;
+}
+
+.para2 {
+	position: absolute;
+	top: 278px;
+	left: 26px;
+	right: 10px;
+}
+
+#message {
+	width: 650px;
+	height: 30px;
+	background-color: #B40303;
+	float: left;
+	position: relative;
+	top: 305px;
+	left: 21px;
+}
+
+#message h3 {
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 30px;
+	position: relative;
+}
+
+.msg {
+	width: 650px;
+	float: left;
+	position: absolute;
+	top: 609px;
+	left: 21px;
+}
+
+.principal_pic {
+	float: right;
+	padding-left: 10px;
+}
+
+.msg p {
+	color: #6F6F6F;
+	font-size: 16px;
+	font-family: 'Timmana', sans-serif;
+	text-align: justify;
+}
+
+#right {
+	width: 280px;
+	height: 980px;
+	float: right;
+	position: relative;
+	top: 10px;
+	border-left: 1px dotted #000;
+}
+
+#board {
+	width: 260px;
+	height: 50px;
+}
+
+#board h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	color: #074690;
+	text-align: center;
+	padding: 1px 0px 10px 25px;
+	line-height: normal;
+	border-bottom: 1px dotted #000;
+	margin-bottom: 10px;
+}
+
+#red_img {
+	width: 225px;
+	position: relative;
+	top: 20px;
+	left: 10px;
+}
+
+#login {
+	width: 300px;
+	height: 84px;
+	background: url(../images/background/buttons_PNG105.png) no-repeat;
+	background-size: 280px;
+	position: relative;
+	top: 30px;
+}
+
+#login a {
+	color: #0000FF;
+	text-decoration: none;
+	font-size: 22px;
+	position: absolute;
+	top: 42px;
+	left: 39px;
+}
+
+.butt_on {
+	width: 300px;
+	height: 84px;
+	background: url(../images/background/Buttons-PNG-Image-36425.png) no-repeat;
+	background-size: 240px;
+	position: relative;
+	top: 50px;
+	left: 20px;
+}
+
+.butt_on a {
+	color: #641E16;
+	text-decoration: none;
+	font-size: 18px;
+	position: absolute;
+	top: 25px;
+	left: 35px;
+}
+
+
+/*==========================School Detail section Code End=====================================*/
+
+
+/*==========================Footer section Code Start=====================================*/
+
+footer {
+	width: 1000px;
+	height: 400px;
+	background-color: #9BC7D5;
+	border-radius: 35px;
+	position: relative;
+	top: 250px;
+}
+
+#leftside {
+	width: 500px;
+	height: 380px;
+	float: left;
+}
+
+#contact {
+	width: 450px;
+	height: 50px;
+	border-bottom: 1px dotted #000;
+}
+
+#contact h1 {
+	color: #FFF;
+	font-size: 40px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.contact_detail {
+	width: 400px;
+	height: 380px;
+}
+
+.location {
+	width: 50px;
+	height: 70px;
+	float: left;
+	margin: 25px 0 0px 20px;
+}
+
+.p1 {
+	color: #FFF;
+	font-size: 25px;
+	position: relative;
+	top: 25px;
+	left: 20px;
+}
+
+.phone {
+	width: 30px;
+	height: 30px;
+	float: left;
+	position: relative;
+	top: 45px;
+	left: -42px;
+}
+
+.p2 {
+	color: #FFF;
+	font-size: 23px;
+	position: relative;
+	top: 46px;
+	left: -9px;
+}
+
+.email {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top: 65px;
+	left: 28px;
+}
+
+.p3 {
+	color: #FFF;
+	font-size: 22px;
+	position: relative;
+	top: 33px;
+	left: 88px;
+}
+
+#rightside {
+	width: 500px;
+	height: 380px;
+	float: right;
+}
+
+#map {
+	width: 450px;
+	height: 50px;
+	border-bottom: 1px dotted #000;
+}
+
+#map h1 {
+	color: #FFF;
+	font-size: 40px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.map_img {
+	width: 450px;
+	height: 300px;
+	position: relative;
+	top: 25px;
+	left: 25px;
+}
+
+#developer {
+	color: #212F3D;
+	font-size: 15px;
+	font-family: 'Pacifico', cursive;
+	position: absolute;
+	top: 325px;
+	left: 90px;
+}
+
+
+/*==========================Footer section Code End=====================================*/

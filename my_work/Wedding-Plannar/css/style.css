@@ -1,0 +1,388 @@
+* {
+	margin: 0 auto;
+	border: 0px;
+	padding: 0px;
+}
+
+.both {
+	clear: both;
+}
+
+p {
+	font-stretch: normal;
+}
+
+
+/*-----Main Code Start Here--*/
+
+#main {
+	width: 100%;
+	height: 3100px;
+}
+
+
+/*-----Navigation Bar Start Here--*/
+
+#nav {
+	width: 100%;
+	height: 60px;
+	background-color: #ffffff;
+	position: fixed;
+}
+
+#logoicon {
+	left: 5px;
+	position: relative;
+	float: left;
+}
+
+#logo {
+	width: 200px;
+	height: 60px;
+	margin-left: 7px;
+	float: left;
+}
+
+#logo p {
+	color: #C0392B;
+	line-height: 60px;
+	padding-left: 10px;
+	font-family: 'Courgette', cursive;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+#navbar {
+	width: 1000px;
+	height: 60px;
+	float: left;
+	margin-left: 50px;
+}
+
+#navbar ul {
+	list-style: none;
+	text-align: center;
+}
+
+#navbar ul li {
+	display: inline;
+	line-height: 60px;
+	padding: 0px 30px;
+}
+
+#navbar ul li a {
+	text-decoration: none;
+	font-family: "Myriad Pro";
+	font-size: 20px;
+	color: #1C2833;
+}
+
+
+/*-----Navigation Bar End Here--*/
+
+
+/*-----Banner code Start Here--*/
+
+#banner {
+	width: 100%;
+	height: 700px;
+	top: 60px;
+	background: url(../images/Background/banner.jpg) no-repeat;
+	background-size: 100%;
+}
+
+#banner p {
+	color: #273746;
+	padding-top: 425px;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+
+/*-----Banner code End Here--*/
+
+
+/*-----Story code Start Here--*/
+
+#story {
+	width: 100%;
+	height: 600px;
+}
+
+#story h1 {
+	text-align: center;
+	font-family: 'Lobster Two', cursive;
+	font-size: 40px;
+	font-weight: normal;
+	padding-top: 50px;
+	color: #4A235A;
+}
+
+#story img {
+	padding: 30px 0px 0px 50px;
+}
+
+.para1 {
+	width: 500px;
+	height: 325px;
+	float: right;
+	margin: 42px 105px 0px 0px;
+}
+
+.H1 {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	color: #DC7633;
+}
+
+.p1 {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+	text-align: justify;
+	padding-top: 10px;
+	color: #515A5A;
+}
+
+
+/*-----Story code End Here--*/
+
+
+/*-----Service code Start Here--*/
+
+#services {
+	width: 100%;
+	height: 500px;
+}
+
+.img {
+	width: 600px;
+	height: 400px;
+	float: right;
+	margin: 100px -545px 0px 0px;
+	z-index: 1;
+}
+
+.imgbackground {
+	width: 600px;
+	height: 400px;
+	background-color: #F7EFE9;
+	float: right;
+	margin: 50px 50px 0px 0px;
+}
+
+.text {
+	width: 500px;
+	height: 350px;
+	float: left;
+	margin-top: 100px 0px 0px 50px;
+}
+
+.text h1 {
+	text-align: center;
+	font-family: 'Lobster Two', cursive;
+	font-size: 40px;
+	font-weight: normal;
+	padding-top: 50px;
+	color: #4A235A;
+}
+
+.a {
+	font-size: 80px;
+}
+
+.text p {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+	text-align: justify;
+	padding: 10px 0px 10px 0px;
+	color: #515A5A;
+}
+
+.text a {
+	text-decoration: none;
+	font-family: "Myriad Pro";
+	font-size: 19px;
+	color: #1C2833;
+}
+
+
+/*-----Service code End Here--*/
+
+
+/*-----Gallery code Start Here--*/
+
+#gallery {
+	width: 100%;
+	height: 500px;
+	margin-top: 50px;
+}
+
+.img1 {
+	width: 600px;
+	height: 400px;
+	float: left;
+	margin: -350px 0px 0px 100px;
+	z-index: 1;
+}
+
+.imgbackground2 {
+	width: 600px;
+	height: 400px;
+	background-color: #F7EFE9;
+	float: left;
+	margin: 50px 0px 0px 50px;
+}
+
+.text1 {
+	width: 500px;
+	height: 350px;
+	float: right;
+	margin: -385px 50px 0px 0px;
+}
+
+.text1 h1 {
+	text-align: center;
+	font-family: 'Lobster Two', cursive;
+	font-size: 40px;
+	font-weight: normal;
+	font-stretch: normal;
+	padding-top: 50px;
+	color: #4A235A;
+}
+
+.text1 p {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+	text-align: justify;
+	padding: 10px 0px 10px 0px;
+	color: #515A5A;
+}
+
+.text1 a {
+	text-decoration: none;
+	font-family: "Myriad Pro";
+	font-size: 19px;
+	font-stretch: normal;
+	color: #1C2833;
+}
+
+
+/*-----Gallery code End Here--*/
+
+
+/*-----Testimonials code Start Here--*/
+
+#testimonials {
+	width: 100%;
+	height: 500px;
+	margin-top: 50px;
+}
+
+.img2 {
+	width: 600px;
+	height: 400px;
+	float: right;
+	margin: -350px 100px 0px 0px;
+	z-index: 1;
+}
+
+.imgbackground3 {
+	width: 600px;
+	height: 400px;
+	background-color: #F7EFE9;
+	float: right;
+	margin: 50px 50px 0px 0px;
+}
+
+.text2 {
+	width: 500px;
+	height: 350px;
+	float: left;
+	margin: 100px 0px 0px 140px;
+}
+
+.text2 h1 {
+	font-family: 'Lobster Two', cursive;
+	font-size: 40px;
+	font-weight: normal;
+	font-stretch: normal;
+	padding-top: 50px;
+	color: #4A235A;
+}
+
+.text2 p {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+	text-align: justify;
+	padding: 10px 0px 10px 0px;
+	color: #515A5A;
+}
+
+.text2 a {
+	text-decoration: none;
+	font-family: "Myriad Pro";
+	font-size: 19px;
+	font-stretch: normal;
+	color: #1C2833;
+}
+
+
+/*-----Testimonials code End Here--*/
+
+
+/*-----Footer code Start here-------*/
+
+#footer {
+	width: 100%;
+	height: 200px;
+	margin-top: 50px;
+}
+
+.bottom {
+	width: 325px;
+	height: 80px;
+	border-right: 1px solid #212F3C;
+	float: left;
+	margin-left: 8px;
+	margin-top: 50px;
+}
+
+.t1 {
+	font-family: 'Courgette', cursive;
+	font-size: 20px;
+	font-weight: normal;
+	padding-top: 10px;
+	text-align: center;
+	color: #762618;
+}
+
+#booking {
+	width: 325px;
+	height: 80px;
+	float: left;
+	margin: 50px 0px 0px 8px;
+}
+
+#booking :hover {
+	background-color: #ABB2B9;
+	padding-left: 10px;
+}
+
+#booking a {
+	text-decoration: none;
+	font-family: 'Francois One', sans-serif;
+	font-size: 30px;
+	font-stretch: normal;
+	color: #1C2833;
+	padding-left: 42px;
+	line-height: 80px;
+}
+
+
+/*-----Footer code End here-------*/

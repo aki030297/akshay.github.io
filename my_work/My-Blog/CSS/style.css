@@ -1,0 +1,518 @@
+* {
+	margin: 0 auto;
+	padding: 0px;
+}
+
+body {
+	width: 100%;
+}
+
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: #FDDA89;
+	position: fixed;
+	z-index: 999;
+}
+
+#nav1 {
+	width: 500px;
+	height: 50px;
+	margin-left: 0px;
+}
+
+#nav1 ul {
+	list-style: none;
+	text-align: center;
+}
+
+#nav1 ul li {
+	display: inline;
+	line-height: 50px;
+	padding: 0px 18px;
+}
+
+#nav1 ul li a {
+	text-decoration: none;
+	font-family: "Myriad Pro";
+	font-size: 15px;
+	font-stretch: normal;
+	color: #0F3F55;
+}
+
+#popularpost {
+	width: 110px;
+	height: 20px;
+	margin-top: -33px;
+	margin-left: 525px;
+}
+
+#popularpost summary {
+	font-family: "Myriad Pro";
+	font-size: 15px;
+	font-stretch: normal;
+	color: #0F3F55;
+}
+
+.post {
+	width: 700px;
+	height: 500px;
+	background-color: #ffffff;
+}
+
+.post ul {
+	list-style: none;
+	text-align: center;
+}
+
+.post ul li {
+	font-family: "Myriad Pro";
+	font-size: 15px;
+	font-stretch: normal;
+	color: #0F3F55;
+}
+
+#top-socialIcon {
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	margin-top: -36px;
+	margin-right: 20px;
+	float: right;
+}
+
+#top-socialIcon ul {
+	list-style: none;
+	text-align: center;
+}
+
+#top-socialIcon ul li {
+	display: inline;
+}
+
+#top-socialIcon ul li a {
+	text-decoration: none;
+	display: inline;
+}
+
+#top-socialIcon img {
+	height: 30px;
+	width: 30px;
+	padding: 7px;
+}
+
+#top-socialIcon img:hover {
+	transform: scale(1.1);
+}
+
+#beachimg {
+	width: 100%;
+	height: 475px;
+	background: url("../Images/background/Travel-excite.jpg") no-repeat top left;
+	background-size: 1368px;
+	margin-top: 0px;
+}
+
+.beachtext {
+	width: 500px;
+	height: 100px;
+}
+
+.beachtext h1 {
+	font-family: "Acme";
+	font-size: 95px;
+	font-weight: normal;
+	color: #424242;
+	padding-top: 90px;
+	margin-left: -215px;
+}
+
+.beachtext h2 {
+	font-family: "Sedgwick Ave";
+	font-size: 15px;
+	font-weight: normal;
+	color: #424242;
+	padding-top: 15px;
+	margin-left: -210px;
+}
+
+#para1 {
+	width: 800px;
+	height: 100px;
+}
+
+#para1 p {
+	font-family: "Indie Flower";
+	font-size: 20px;
+	font-weight: normal;
+	color: #4568CC;
+	padding-top: 15px;
+	text-align: justify;
+}
+
+#imagesgroup {
+	width: 100%;
+}
+
+#imagesgroup p {
+	font-family: "Play";
+	font-size: 20px;
+	font-weight: normal;
+	color: #000000;
+	padding-top: 15px;
+	text-align: center;
+}
+
+#image1 {
+	display: inline-block;
+	width: 315px;
+	height: 260px;
+	background: url("../Images/background/street.jpg") no-repeat top left;
+	background-size: 315px;
+	margin-top: 25px;
+}
+
+.travel {
+	width: 155px;
+	height: 55px;
+	background-color: #ffffff;
+	margin-top: 80px;
+}
+
+#image2 {
+	display: inline-block;
+	width: 315px;
+	height: 260px;
+	background: url("../Images/background/food.jpg") no-repeat top left;
+	background-size: 373px;
+	margin-top: 25px;
+}
+
+.eat {
+	width: 155px;
+	height: 55px;
+	background-color: #ffffff;
+	margin-top: 80px;
+}
+
+#image3 {
+	display: inline-block;
+	width: 315px;
+	height: 260px;
+	background: url("../Images/background/relax.jpg") no-repeat top left;
+	background-size: 379px;
+	margin-top: 25px;
+}
+
+.relax {
+	width: 155px;
+	height: 55px;
+	background-color: #ffffff;
+	margin-top: 80px;
+}
+
+#feature {
+	width: 100%;
+	height: 138px;
+	background-color: #F2F2F2;
+	margin-top: 20px;
+}
+
+.feature {
+	width: 960px;
+	height: 138px;
+	background-color: #F2F2F2;
+}
+
+.text1 {
+	display: inline-block;
+	width: 176px;
+	height: 138px;
+	background-color: #F2F2F2;
+	float: left;
+}
+
+.text1 p {
+	font-family: "Kaushan Script";
+	font-size: 28px;
+	font-weight: normal;
+	color: #283747;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	border-right-style: solid;
+}
+
+.travelblog {
+	display: inline-block;
+	width: 176px;
+	height: 138px;
+	background-color: #F2F2F2;
+	float: left;
+}
+
+.travelblog h1 {
+	font-size: 28px;
+	font-weight: normal;
+	color: #000000;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.travelblog h2 {
+	font-size: 28px;
+	font-weight: normal;
+	color: #283747;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.planetour {
+	display: inline-block;
+	width: 176px;
+	height: 138px;
+	background-color: #F2F2F2;
+	float: left;
+}
+
+.planetour img {
+	width: 20px;
+	height: 20px;
+	transform: translateY(288%);
+	position: relative;
+}
+
+.planetour h2 {
+	font-size: 28px;
+	font-weight: normal;
+	color: #283747;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.planetour h2 span {
+	color: #000000;
+}
+
+.worldtravel {
+	display: inline-block;
+	width: 273px;
+	height: 138px;
+	background-color: #F2F2F2;
+	float: left;
+}
+
+.worldtravel h1 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.skycloud {
+	display: inline-block;
+	width: 154px;
+	height: 138px;
+	background-color: #F2F2F2;
+}
+
+.skycloud img {
+	width: 20px;
+	height: 20px;
+	padding-left: 9px;
+	transform: translateY(343%);
+	position: relative;
+}
+
+.skycloud h2 {
+	font-size: 28px;
+	font-weight: normal;
+	color: #641E16;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	padding-right: 50px;
+}
+
+.banner {
+	width: 938px;
+	height: 400px;
+	margin-left: 206px;
+	margin-top: 50px;
+}
+
+.imagetext {
+	width: 938px;
+	height: 250px;
+	background-color: #ffffff;
+}
+
+.imagetext h1 {
+	font-family: "Inconsolata";
+	font-size: 28px;
+	font-weight: normal;
+	color: #566573;
+	margin-top: 20px;
+}
+
+.imagetext p {
+	font-family: "Pacifico";
+	font-size: 20px;
+	font-weight: normal;
+	color: #D98880;
+	padding-top: 2px;
+	padding-left: 49px;
+	padding-right: 49px;
+	text-align: justify;
+}
+
+.like-share-comment img {
+	height: 30px;
+	width: 30px;
+	padding: 10px;
+}
+
+.like-share-comment img:hover {
+	transform: scale(1.1);
+}
+
+#socialmedia {
+	width: 100%;
+	height: 80px;
+	background-color: #3AC0C7;
+}
+
+.socialmedia {
+	width: 980px;
+	height: 67px;
+	background-color: #3AC0C7;
+	display: inline-block;
+	margin-left: 188px;
+}
+
+.socialmedia img {
+	height: 30px;
+	width: 30px;
+	padding-top: 10px;
+}
+
+.socialmedia img:hover {
+	transform: scale(2.2);
+}
+
+.icon1 {
+	width: 200px;
+	height: 67px;
+	background-color: #3AC0C7;
+	display: inline-block;
+}
+
+.icon1 p {
+	font-family: "Inconsolata";
+	font-size: 28px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+#footer {
+	width: 100%;
+	height: 350px;
+	background-color: #696969;
+}
+
+.profile {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 175px;
+}
+
+.aboutme {
+	width: 500px;
+	height: 200px;
+	margin-top: -176px;
+}
+
+.aboutme h1 {
+	font-family: "Abril Fatface";
+	font-size: 28px;
+	font-weight: normal;
+	color: #FFFFFF;
+	position: relative;
+}
+
+.aboutme p {
+	font-family: "Courgette";
+	font-size: 15px;
+	font-weight: normal;
+	color: #ffffff;
+	text-align: justify;
+}
+
+#form {
+	width: 300px;
+	height: 200px;
+	float: right;
+	margin-top: -198px;
+}
+
+#form h1 {
+	color: #ffffff;
+}
+
+#form1 .email {
+	width: 60%;
+	height: 40px;
+	text-indent: 20px;
+	font-size: 12px;
+	font-weight: 300;
+	outline: 0;
+	background: #FFF;
+	border: 1px solid #ddd;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+form button {
+	width: 60%;
+	height: 40px;
+	position: relative;
+	margin-top: 10px;
+	margin-left: 50px;
+	left: 30%;
+	transform: translate(-50%, 0);
+	color: white;
+	background: #3AC0C7;
+	outline: none;
+	border: none;
+	font-size: 12px;
+	font-weight: 400;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.4);
+	cursor: pointer;
+	transition: all 0.15s ease-in-out;
+}
+
+#terms {
+	width: 450px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#terms p {
+	color: #000000;
+}

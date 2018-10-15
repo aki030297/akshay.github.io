@@ -1,0 +1,509 @@
+* {
+	margin: 0 auto;
+	padding: 0px;
+	font-family: 'Arial';
+	font-weight: normal;
+}
+
+.both {
+	clear: both;
+}
+
+#main_container {
+	width: 1280px;
+	background-color: #ffffff;
+}
+
+
+/*--------Top Banner code start-----*/
+
+header {
+	width: 1280px;
+	height: 458px;
+	background: url("../images/background/AsianAcademyHeader.jpg") no-repeat top left;
+}
+
+#logo {
+	width: 190px;
+	height: 350px;
+	margin-left: 160px;
+	z-index: 100;
+}
+
+nav {
+	width: 1280px;
+	height: 42px;
+	background-color: #ffffff;
+	margin-top: -298px;
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+	padding-left: 139px;
+}
+
+nav ul li {
+	display: inline;
+	line-height: 42px;
+	padding: 0px 21px;
+	background: url(../Images/Background/Bar.jpg) no-repeat top right;
+}
+
+nav ul li:last-child {
+	background: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-size: 14px;
+	font-stretch: normal;
+	color: #000000;
+}
+
+
+/*--------Top Banner code end-----*/
+
+
+/*-------- Middle part code start----*/
+
+#M1 {
+	width: 1280px;
+	height: 188px;
+	background-color: #00105f;
+}
+
+.M11 {
+	width: 188px;
+	height: 188px;
+	background-color: #f99310;
+	margin-left: 160px;
+	border-radius: 7px 7px 0px 0px;
+	display: inline-block;
+}
+
+.arrow {
+	margin-top: 63px;
+	margin-left: 132px;
+}
+
+.M11 p {
+	color: #ffffff;
+	padding-left: 21px;
+}
+
+.para1 {
+	font-size: 19px;
+	margin-top: -88px;
+}
+
+.para2 {
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.para3 {
+	font-size: 18px;
+	margin-top: 2px;
+}
+
+.M12 {
+	width: 745px;
+	height: 188px;
+	margin-left: 374px;
+	background-color: #ffffff;
+	border-radius: 7px 7px 0px 0px;
+	margin-top: -188px;
+}
+
+.para4 {
+	font-size: 19px;
+	font-weight: normal;
+	color: #000000;
+	padding-left: 21px;
+	padding-top: 15px;
+}
+
+.para5 {
+	font-size: 13px;
+	color: #333333;
+	padding-left: 21px;
+	padding-right: 21px;
+	padding-top: 15px;
+	text-align: justify;
+}
+
+
+/*-------- Middle part code end----*/
+
+
+/*--------Left Section code start-----*/
+
+#presidentmessage {
+	width: 188px;
+	float: left;
+	margin-left: 159px;
+}
+
+#presidentmessage img {
+	margin-top: 16px;
+}
+
+#presidentmessage h2 {
+	font-size: 16px;
+	color: #000000;
+	margin-top: 33px;
+	padding-bottom: 11px;
+	border-bottom: 1px solid #bab9b9;
+}
+
+.para6 {
+	font-size: 16px;
+	color: #000000;
+	padding-top: 15px;
+	text-align: justify;
+}
+
+.para7 {
+	font-size: 13px;
+	color: #333333;
+	padding-top: 9px;
+	padding-bottom: 19px;
+	line-height: 1.6;
+	border-bottom: 1px solid #bab9b9;
+}
+
+.para8 {
+	font-size: 13px;
+	color: #333333;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	line-height: 22px;
+	border-bottom: 1px solid #bab9b9;
+}
+
+
+/*--------Left Section code end-----*/
+
+
+/*--------Middle Section code start-----*/
+
+#middle {
+	width: 386px;
+	height: 625px;
+	float: left;
+	margin-left: 50px;
+	border: 1px solid #bab9b9;
+	margin-top: 25px;
+	border-radius: 2px 2px 2px 2px;
+}
+
+#middle h2 {
+	font-size: 16px;
+	padding-top: 16px;
+	padding: 22px;
+}
+
+#middle ul li {
+	list-style: none;
+}
+
+#middle ul li span {
+	display: block;
+}
+
+.tablinks {
+	width: 114px;
+	height: 40px;
+	color: #ffffff;
+	margin-left: 10px;
+	text-align: center;
+	font-size: 14px;
+	float: left;
+	cursor: pointer;
+}
+
+.junior {
+	background: url(../images/background/AsianAcademyCollegesTabs.gif) no-repeat top left;
+}
+
+.senior {
+	background: url(../images/background/AsianAcademyCollegesTabs.gif) no-repeat bottom left;
+	margin-left: 10px;
+}
+
+.management {
+	background: url(../images/background/AsianAcademyCollegesTabs.gif) no-repeat bottom;
+	margin-left: 10px;
+}
+
+.tabcontent {
+	width: 357px;
+	height: 474px;
+	display: none;
+}
+
+#admission-content1 {
+	display: block;
+}
+
+.tabcontent h3 {
+	font-size: 14px;
+	padding: 45px 0 8px 0;
+}
+
+#middle img {
+	display: block;
+	padding-right: 15px;
+	padding-bottom: -10px;
+	float: left;
+}
+
+#middle p {
+	font-size: 13px;
+	line-height: 1.6;
+	margin-bottom: 14px;
+}
+
+#middle h4 {
+	font-size: 13px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#middle span {
+	font-size: 13px;
+}
+
+#middle a {
+	color: #0066ff;
+	text-decoration: underline;
+}
+
+
+/*--------Middle Section code end-----*/
+
+
+/*--------Right Section code start-----*/
+
+#right {
+	width: 290px;
+	height: 625px;
+	border: 1px solid #bab9b9;
+	margin-top: 25px;
+	margin-left: 18px;
+	float: left;
+}
+
+.Features {
+	width: 290px;
+	height: 619px;
+	float: right;
+}
+
+.Featuresdiv {
+	width: 274px;
+	height: 30px;
+	margin-top: 8px;
+	background: url("../images/background/AsianAcademyFeatures.gif");
+}
+
+#btnimg1:hover,
+#btnimg2:hover,
+#btnimg3:hover {
+	background: url("../images/background/AsianAcademyStudentFacilities.gif");
+}
+
+#btnimg1:focus,
+#btnimg2:focus,
+#btnimg3:focus {
+	background: url("../images/background/AsianAcademyPlacementCell.gif");
+	outline: none;
+}
+
+.AAER {
+	font-size: 16px;
+	color: #ffffff;
+	padding: 11px 0px 5px 9px;
+}
+
+.para9 {
+	font-size: 13px;
+	color: #333333;
+	padding: 22px 0 0 18px;
+	line-height: 1.6;
+}
+
+.Features ul {
+	list-style-image: url("../images/background/left_arrow.png");
+	padding-left: 30px;
+	padding-top: 22px;
+	color: #333333;
+}
+
+.Features ul li {
+	font-size: 13px;
+	color: #333333;
+	padding-top: 3px;
+	line-height: 17px;
+}
+
+
+/*.------==============Accordion code Start============================*/
+
+button.accordion {
+	color: #FFF;
+	cursor: pointer;
+	margin: 10px 0 0 8px;
+}
+
+.panel {
+	display: none;
+}
+
+.panel.show {
+	display: block !important;
+}
+
+.panel.hide {
+	display: none !important;
+}
+
+
+/*.------==============Accordion code End============================*/
+
+
+/*--------Right Section code end-----*/
+
+
+/*--------Footer code start-----*/
+
+footer {
+	width: 960px;
+	height: 400px;
+	margin-top: 693px;
+}
+
+#Contact {
+	width: 960px;
+	height: 340px;
+	background-color: #ebebeb;
+}
+
+#call {
+	width: 190px;
+	float: left;
+	margin: 22px 31px 0px 22px;
+}
+
+#Please-call {
+	width: 169px;
+	height: 36px;
+	margin: 0px;
+}
+
+#Please-call p {
+	font-size: 17.13px;
+	color: #000000;
+}
+
+.contact-no {
+	width: 188px;
+	height: 70px;
+	margin-top: 4px;
+}
+
+.border {
+	border-bottom: 1px solid #bab9b9;
+}
+
+.contact-no p {
+	width: 112px;
+	height: 34px;
+	line-height: 20px;
+	margin-left: 52px;
+	padding-top: 20px;
+	font-size: 14px;
+	color: #cb1e40;
+}
+
+#location {
+	width: 320px;
+	height: 295px;
+	float: left;
+	border-left: 1px solid #bab9b9;
+	margin-top: 20px;
+}
+
+#location img {
+	width: 300px;
+	height: 256px;
+	margin-top: 14px;
+}
+
+#location-margin {
+	margin-left: 17px;
+}
+
+#location-margin p {
+	font-size: 16px;
+	color: black;
+}
+
+#address {
+	width: 356px;
+	height: 290px;
+	float: left;
+	margin: 20px 0 0 20px;
+}
+
+.Office-Address {
+	margin: 15px 0px 15px 0px;
+}
+
+.Office-Address p {
+	font-size: 13.5px;
+	color: black;
+}
+
+#academy-name p {
+	font-size: 16px;
+	color: black;
+}
+
+.Address p {
+	font-size: 13px;
+	color: #333333;
+	line-height: 20px;
+}
+
+.website-address p {
+	font-size: 13.5px;
+	color: #0066ff;
+}
+
+.website-address p a {
+	text-decoration: underline;
+	color: #0066ff;
+}
+
+#website {
+	margin: 40px 0px 13px 0px;
+}
+
+#copyright {
+	float: left;
+	margin-top: 24px;
+	font-size: 13px;
+	color: #333333;
+}
+
+#designed {
+	float: right;
+	margin-top: 24px;
+	font-size: 13px;
+	color: #333333;
+}
+
+
+/*--------Footer code end-----*/
